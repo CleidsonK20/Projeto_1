@@ -115,7 +115,7 @@
     left: 15%;
     padding: 30px;
     background-color: rgb(0, 0, 0);
-    font-size: 70%;
+    font-size: 15px;
     color: rgb(255, 255, 255);
     letter-spacing: 6px;
     text-align: center;
@@ -186,7 +186,8 @@ section article a:hover {
 
 .articles article p,
 #contact p,
-.creation-date {
+.creation-date,
+footer {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -246,4 +247,9 @@ form button:hover {
 }
 #social li a {
     text-decoration: none;
+}
+footer {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 8px 0;
 }
